@@ -1,0 +1,15 @@
+region: us-west-1
+
+function_name: order
+handler: service.handler
+role: pizzashop-role
+description: My first lambda function
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: AKIAIZBYXWI4IHGGYTVQ
+aws_secret_access_key: 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
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512

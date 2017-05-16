@@ -1,0 +1,15 @@
+{
+    "Method" : "PUT",
+
+    "params": {
+        "menu_id": "3"
+    },
+
+   "body": {
+       "selection": [
+           "Cheese",
+           "Pepperoni",
+           "vegetables123"
+       ]
+   }
+}
