@@ -6,8 +6,8 @@ import uuid
 import json
 
 
-dynamodb_session = Session(aws_access_key_id='AKIAIZBYXWI4IHGGYTVQ',
-          aws_secret_access_key='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',
+dynamodb_session = Session(aws_access_key_id='',
+          aws_secret_access_key='',
           region_name='us-west-1')
 
 dynamodb = dynamodb_session.resource('dynamodb')
